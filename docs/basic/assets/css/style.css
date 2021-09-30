@@ -81,6 +81,10 @@ body {
   margin: 10px;
 }
 
+.section-content .section-image img{
+  width: 100%;
+}
+
 .section-content .section-text {
   margin: 10px;
 }
@@ -96,9 +100,12 @@ body {
   align-items: center;
   text-decoration: none;
   color: #e59755;
-  padding: 20px 100px;
+  /* padding: 20px 100px; */
+  width: 100%;
   border: 2px solid #e59755;
   transition: 0.5s;
+  max-height: 100px;
+  min-height: 50px;
 }
 
 .detail-button:hover {
